@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.StartActivity"> <RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="50dp"
+    tools:layout_editor_absoluteY="325dp">
+
+    <Button
+        android:id="@+id/all_users_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="180dp"
+        android:background="@color/colorAccent"
+        android:padding="5dp"
+        android:text="View All users"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_transfers_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/all_users_button"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:padding="5dp"
+        android:text="View All Transfers"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="Credit Management"
+        android:textColor="#785D5D"
+        android:textColorLink="@color/cardview_light_background"
+
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
